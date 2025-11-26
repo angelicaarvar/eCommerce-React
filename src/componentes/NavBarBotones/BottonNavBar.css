@@ -1,0 +1,13 @@
+.botones-navbar{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 1.4rem;
+    font-size: 1rem;
+}
+
+.botones-navbar:hover{
+    font-weight: bold;
+    border-bottom: 2px solid black;
+
+}
