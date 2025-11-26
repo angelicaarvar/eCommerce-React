@@ -6,7 +6,9 @@ export default function NavBar({ cartCount }) {
     return (
         <nav className="nav-contenedor">
             <div>
-                <h2 className='nav-titulo'>The Garden</h2>
+                <a className='nav-titulo' href="../App.jsx">
+                    <h2>The Garden</h2>
+                </a>
             </div>
 
             <div>

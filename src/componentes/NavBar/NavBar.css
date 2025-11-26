@@ -16,3 +16,8 @@
     font-family: 'Amatic SC', cursive;
     font-size: 2rem;
 }
+
+.nav-titulo {
+    text-decoration: none;
+    color: black;
+}

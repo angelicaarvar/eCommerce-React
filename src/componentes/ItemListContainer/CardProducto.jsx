@@ -6,7 +6,7 @@ export default function CardProducto({ products, onAddToCart }) {
                 <h2 className="card-nombre">
                     {products.nombre}
                 </h2>
-                <img src={products.imagen} alt={products.nombre} />
+                <img className='foto-planta' src={products.imagen} alt={products.nombre} />
                 <p>Precio: ${products.precio}</p>
                 
                 <button className='boton-agregarCarrito' onClick={onAddToCart}>AGREGAR AL CARRITO</button>

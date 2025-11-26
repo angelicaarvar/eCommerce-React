@@ -1,9 +1,10 @@
 import './CartWidget.css';
+import Carrito from '../imagenes/cart.svg'
 
 export default function CartWidget({ count }) {
     return (
         <div className="cart-widget">
-            <img src="./imagenes/cart.svg" /> <span className="contador-cart">{count}</span>
+            <img className='carrito-svg' src={Carrito} alt="Carrito de compras" /> <span className="contador-cart">{count}</span>
         </div>
     );
 }
