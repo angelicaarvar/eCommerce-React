@@ -1,9 +1,13 @@
 import './BottonNavBar.css';
+import { NavLink } from 'react-router-dom';
 
-export default function BottonNavBar(props) {
+export default function BottonNavBar({ to, label }) {
     return (
-        <>
-            <button className="botones-navbar">{props.botones}</button>
-        </>
+        <NavLink
+            to={to}
+            className={({ isActive }) => isActive ? 'botones-navbar active' : 'botones-navbar'}
+        >
+            {label}
+        </NavLink>
     );
 }

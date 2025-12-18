@@ -1,0 +1,44 @@
+.contenedor-aboutUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 2rem;
+    font-family: 'Kedebideri', sans-serif;
+}
+
+.titulo-aboutUs {
+    font-size: 2rem;
+    color: rgb(6, 63, 0);;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+}
+
+.parrafo-aboutUs {
+    font-size: 1.1rem;
+    color: #333;
+    max-width: 800px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.btn-volver {
+    background-color: rgb(3, 31, 0);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 40vw;
+    padding: .8rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s, border 0.2s;
+}
+
+.btn-volver:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}

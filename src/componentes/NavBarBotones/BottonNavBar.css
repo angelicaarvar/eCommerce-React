@@ -4,10 +4,20 @@
     cursor: pointer;
     padding: 1.4rem;
     font-size: 1rem;
+    color: #000;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .botones-navbar:hover{
     font-weight: bold;
     border-bottom: 2px solid black;
 
+}
+
+@media(max-width: 500px) {
+    .botones-navbar {
+        padding: 0;
+    }
 }
